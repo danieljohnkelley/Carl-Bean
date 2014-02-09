@@ -1,0 +1,47 @@
+.post_sorter {}
+
+.post_sorter .inline_field { width: 48px; text-align: right; }
+
+.post_sorter .icon_button
+{
+    display: inline-block;
+    position: relative;
+    top: -1px;
+    margin-right: 8px;
+    vertical-align: middle;
+    width: 16px;
+    height: 16px;
+    background-image: url('../image/arrows.gif');
+    background-repeat: no-repeat;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+.post_sorter .icon_button.up { background-position: -311px -70px; }
+.post_sorter .icon_button.down { background-position: -260px -69px; }
+
+
+.post_sorter_form { margin-top: 48px; }
+.post_sorter_form .controller { margin-top: 24px; clear: both; }
+
+.post_sorter_form input[type="checkbox"],
+.post_sorter_form input[type="radio"]
+{
+    margin-right: 16px;
+}
+
+.post_sorter_form input[type="text"],
+.post_sorter_form textarea
+{
+    width: 480px;
+}
+
+.post_sorter_form input[type="text"][readonly="readonly"],
+.post_sorter_form textarea[readonly="readonly"]
+{ background-color: #eee; }
+
+.post_sorter_form .multi-select { margin-bottom: 24px; float: left; }
+.post_sorter_form .multi-select label { display: block; }
+.post_sorter_form .multi-select select[multiple] { vertical-align: top; width: 320px; min-height: 160px; }
+
+.post_sorter_form .multi-select.toggle { margin: 48px; }
+.post_sorter_form .multi-select.toggle input[type="button"] { display: block; margin: 12px 0; }
